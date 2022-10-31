@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblio>
+    <etudiant code="1" nom="halim" prenom="youness" age="23"> 
+        <livre id="1" titre="java" datepret="2022-01-01" rendu="non"/>
+        <livre id="5" titre="c++" datepret="2022-04-01" rendu="oui"/>
+    </etudiant>
+    <etudiant code="2" nom="essalhi" prenom="saad" age="23">
+        <livre id="10" titre="html" datepret="2022-12-01" rendu="oui"/>
+    </etudiant>
+</biblio>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE operateur SYSTEM "file:/C:/Users/hp/Desktop/xml/exo2.dtd">
+<?xml-stylesheet type="text/xsl" href="exo.xsl"?>
+<operateur>
+    <client code="1" nom="halim">
+        <abbonement num="123" type="GSM" dateab="2022-1-12">
+            <facture numfact="432" datefact="2022-2-2" montant="250.44" reglee="oui"/>
+            <facture numfact="435" datefact="2022-3-1" montant="300.4" reglee="oui"/>
+            <facture numfact="436" datefact="2022-5-2" montant="500.2" reglee="non"/>
+        </abbonement>
+        <abbonement num="156" type="fix" dateab="2021-04-14">
+            <facture numfact="560" datefact="2022-6-2" montant="400.5" reglee="non"/>
+            <facture numfact="780" datefact="2022-1-2" montant="500.6" reglee="oui"/>
+        </abbonement>
+    </client>
+    <client code="1" nom="saad">
+        <abbonement num="124" type="GSM" dateab="2022-1-1">
+            <facture numfact="540" datefact="2022-2-2" montant="300.40"/>
+            <facture numfact="411" datefact="2022-3-2" montant="500.40"/>
+        </abbonement>
+    </client>
+</operateur>

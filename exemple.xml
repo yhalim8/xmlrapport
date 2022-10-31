@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio SYSTEM "file:/C:/Users/hp/Desktop/xml/biblio.dtd">
+<?xml-stylesheet type="text/xsl" href="biblio1.xsl"?>
+<biblio>
+    <etudiant code="E1" nom="halim" prenom="youness" age="20">
+        <livre id="L1" titre="java" datepret="2022" rendu="oui"/>
+        <livre id="L2" titre="XML" datepret="2022" rendu="non"/>
+    </etudiant>
+    <etudiant code="E2" nom="BRAHIM" prenom="amin" age="21">
+        <livre id="L2" titre="XML" datepret="2022" rendu="oui" />
+    </etudiant>
+</biblio>

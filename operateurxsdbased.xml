@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operateur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/hp/Desktop/xml/operateur.xsd">
+    <client code="1" nom="halim">
+        <abbonement num="123" type="GSM" dateAb="2022-01-12">
+            <facture numFact="432" dateFact="2022-12-20" montant="250.44" reglee="oui"/>
+            <facture numFact="435" dateFact="2022-03-10" montant="300.4" reglee="oui"/>
+            <facture numFact="436" dateFact="2022-05-02" montant="500.2" reglee="non"/>
+        </abbonement>
+        <abbonement num="156" type="FIXE" dateAb="2021-04-04">
+            <facture numFact="560" dateFact="2022-06-20" montant="400.5" reglee="non"/>
+            <facture numFact="780" dateFact="2022-01-02" montant="500.6" reglee="oui"/>
+        </abbonement>
+    </client>
+    <client code="1" nom="saad">
+        <abbonement num="124" type="GSM" dateAb="2022-01-01">
+            <facture numFact="540" dateFact="2022-02-20" montant="300.40"/>
+            <facture numFact="411" dateFact="2022-03-20" montant="500.40"/>
+        </abbonement>
+    </client>
+</operateur>

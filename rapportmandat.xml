@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rapport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/hp/Desktop/xml/mandatxsd.xsd">
+    <mandat num="123" date="2022-02-02" montant="1000" etat="non_recu">
+        <expediteur nom="halim" prenom="youness" cin="hh123555" ville="safi"/>
+        <destinataire nom="khalid" prenom="tata" cin="hh121211" ville="casa"/>
+    </mandat>
+    <mandat num="123" date="2022-02-02" montant="400" etat="recu">
+        <expediteur nom="halim" prenom="youness" cin="hh123555" ville="safi"/>
+        <destinataire nom="khalid" prenom="tata" cin="hh121211" ville="casa"/>
+    </mandat>
+    <mandat num="123" date="2022-02-02" montant="500" etat="recu">
+        <expediteur nom="halim" prenom="youness" cin="hh123555" ville="safi"/>
+        <destinataire nom="khalid" prenom="tata" cin="hh121211" ville="casa"/>
+    </mandat>
+</rapport>
